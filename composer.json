@@ -1,0 +1,22 @@
+{
+    "name": "ezzatron/php-lcs",
+    "description": "An implementation of the 'longest common subsequence' algorithm for PHP.",
+    "keywords": ["longest","common","subsequence","sequence","diff","algorithm"],
+    "homepage": "https://github.com/ezzatron/php-lcs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erin Millard",
+            "email": "ezzatron@gmail.com",
+            "homepage": "http://ezzatron.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ezzatron\\LCS": "src"
+        }
+    }
+}

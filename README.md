@@ -2,6 +2,18 @@
 
 *An implementation of the 'longest common subsequence' algorithm for PHP.*
 
+## Installation
+
+### With [Composer](http://getcomposer.org/)
+
+* Add 'ezzatron/php-lcs' to your project's composer.json dependencies
+* Run `php composer.phar install`
+
+### Bare installation
+
+* Clone from GitHub: `git clone git://github.com/ezzatron/php-lcs.git`
+* Use a [PSR-0](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md) compatible autoloader (namespace 'Ezzatron\LCS' in the 'src' directory)
+
 ## What is PHP-LCS?
 
 PHP-LCS is a PHP implementation of an algorithm to solve the 'longest common

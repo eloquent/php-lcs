@@ -1,5 +1,5 @@
 {
-    "name": "ezzatron/lcs",
+    "name": "ezzatron/php-lcs",
     "description": "An implementation of the 'longest common subsequence' algorithm for PHP.",
     "keywords": ["longest","common","subsequence","sequence","diff","algorithm"],
     "homepage": "https://github.com/ezzatron/php-lcs",

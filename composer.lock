@@ -1,16 +1,110 @@
 {
-    "hash": "f387d8197a71242c3bebfbf8a44f5b20",
+    "hash": "fca287a858aad674ce78cdde4e100f93",
     "packages": [
 
     ],
     "packages-dev": [
-
+        {
+            "name": "icecave/testing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IcecaveStudios/testing.git",
+                "reference": "a81077d3ca9867129260378791917cd641602a15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/IcecaveStudios/testing/archive/a81077d3ca9867129260378791917cd641602a15.zip",
+                "reference": "a81077d3ca9867129260378791917cd641602a15",
+                "shasum": ""
+            },
+            "require": {
+                "phake/phake": "1.*"
+            },
+            "suggest": {
+                "eloquent/asplode": "Use the asplode error handler instead of PHPUnit's internal error handler.",
+                "eloquent/liberator": "Use liberator for circumventing PHP access modifier restrictions inside tests."
+            },
+            "time": "2013-01-16 08:01:13",
+            "bin": [
+                "bin/phpunit",
+                "bin/phpunit-coverage",
+                "bin/travis-init",
+                "bin/travis-build",
+                "bin/travis-success"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Harris",
+                    "email": "james.harris@icecave.com.au"
+                }
+            ],
+            "description": "Helper package for testing Icecave projects in a uniform way.",
+            "homepage": "https://github.com/IcecaveStudios/testing",
+            "keywords": [
+                "testing",
+                "phpunit",
+                "test",
+                "unit",
+                "phake",
+                "coverage"
+            ]
+        },
+        {
+            "name": "phake/phake",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/mlively/Phake.git",
+                "reference": "v1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/mlively/Phake/zipball/v1.0.3",
+                "reference": "v1.0.3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "time": "2012-05-14 08:06:51",
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "src"
+            ],
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Lively",
+                    "email": "m@digitalsandwich.com"
+                }
+            ],
+            "description": "The Phake mock testing library",
+            "homepage": "https://github.com/mlively/Phake",
+            "keywords": [
+                "testing",
+                "mock"
+            ]
+        }
     ],
     "aliases": [
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ]
+    "stability-flags": {
+        "icecave/testing": 20
+    }
 }

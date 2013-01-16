@@ -1,8 +1,19 @@
 language: php
-before_script:
-    - composer install --dev
-script: phpunit
+
 php:
-    - 5.3.3
-    - 5.3
-    - 5.4
+  - 5.3.3
+  - 5.3
+  - 5.4
+  - 5.5
+
+env:
+  global:
+    - secure: "gHTQ99M+OQXV2YiG94rVQzpiNlVf/Jot8TDd3AsePHEQP3KCiMSnl4YbA53h\n90YqJ+YjDbiRKTo5B9iDpdcKwt6jWBnc6u8xJhXQXzTNVZuby9SOF5simKp5\n1Q+C7N05ihihanUnJSW7puyMEiuXHJ7qMKpFZGQ//JTHojwlSaw="
+
+matrix:
+  allow_failures:
+    - php: 5.5
+
+install:        composer install --dev
+script:         ./vendor/bin/travis-build
+after_success:  ./vendor/bin/travis-success

@@ -6,11 +6,14 @@ php:
   - 5.4
   - 5.5
 
-env:
-  global:
-    - secure: "gHTQ99M+OQXV2YiG94rVQzpiNlVf/Jot8TDd3AsePHEQP3KCiMSnl4YbA53h\n90YqJ+YjDbiRKTo5B9iDpdcKwt6jWBnc6u8xJhXQXzTNVZuby9SOF5simKp5\n1Q+C7N05ihihanUnJSW7puyMEiuXHJ7qMKpFZGQ//JTHojwlSaw="
-
 matrix:
+  # Use PHP 5.4 for coverage reporting.
+  include:
+    - php: 5.4
+      env:
+        - secure: "kGkszrQG6V6BAfwZmGAHRfaOHbn2o0hXuBfp8TutXtdc3dNFCy5ZVptJrTR3\nSQF4baDhRQDIBVWrIpbLiaLIVH/XxrstriGv5hfD7Mumun98/X2qXUOl0ku4\n69usbE9mfZ+z0yGsRti6Owt6Elz5qU+OsVpWgP5ZblT1K6OUACA="
+
+  # PHP 5.5 is still in alpha, so ignore build failures.
   allow_failures:
     - php: 5.5
 

@@ -2,17 +2,13 @@
 
 *An implementation of the 'longest common subsequence' algorithm for PHP.*
 
+[![Build Status]](http://travis-ci.org/ezzatron/php-lcs)
+[![Test Coverage]](http://ezzatron.com/php-lcs/artifacts/tests/coverage/)
+
 ## Installation
 
-### With [Composer](http://getcomposer.org/)
-
-* Add 'ezzatron/php-lcs' to your project's composer.json dependencies
-* Run `php composer.phar install`
-
-### Bare installation
-
-* Clone from GitHub: `git clone git://github.com/ezzatron/php-lcs.git`
-* Use a [PSR-0](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md) compatible autoloader (namespace 'Ezzatron\LCS' in the 'src' directory)
+Available as [Composer](http://getcomposer.org/) package
+[ezzatron/php-lcs](https://packagist.org/packages/ezzatron/php-lcs).
 
 ## What is PHP-LCS?
 
@@ -34,7 +30,6 @@ From [Wikipedia](http://en.wikipedia.org/wiki/Longest_common_subsequence_problem
 ## Usage
 
 ```php
-<?php
 use Ezzatron\LCS\LCSSolver;
 
 $solver = new LCSSolver;
@@ -74,11 +69,6 @@ if ($LCS === $expectedLCS) {
 // the above outputs 'LCS solver is working.'
 ```
 
-## Code quality
-
-PHP-LCS strives to attain a high level of quality. A full test suite is
-available, and code coverage is closely monitored.
-
-### Latest revision test suite results
-[![Build status](https://secure.travis-ci.org/ezzatron/php-lcs.png)](http://travis-ci.org/ezzatron/php-lcs)
-[![Test coverage](http://ezzatron.github.com/php-lcs/coverage-report/coverage.png)](http://ezzatron.github.com/php-lcs/coverage-report/index.html)
+<!-- references -->
+[Build Status]: https://raw.github.com/ezzatron/php-lcs/gh-pages/artifacts/images/icecave/regular/build-status.png
+[Test Coverage]: https://raw.github.com/ezzatron/php-lcs/gh-pages/artifacts/images/icecave/regular/coverage.png

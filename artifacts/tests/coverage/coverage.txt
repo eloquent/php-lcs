@@ -1,0 +1,12 @@
+
+
+Code Coverage Report 
+  2013-03-04 10:40:58
+
+ Summary: 
+  Classes: 0.00% (0/1)
+  Methods: 0.00% (0/1)
+  Lines:   92.73% (51/55)
+
+\Ezzatron\LCS::LCSSolver
+  Methods: 100.00% ( 1/ 1)   Lines:  92.73% ( 51/ 55)

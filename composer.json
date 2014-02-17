@@ -1,8 +1,8 @@
 {
-    "name": "eloquent/php-lcs",
+    "name": "eloquent/lcs",
     "description": "An implementation of the 'longest common subsequence' algorithm for PHP.",
     "keywords": ["longest", "common", "subsequence", "sequence", "diff", "algorithm"],
-    "homepage": "https://github.com/ezzatron/php-lcs",
+    "homepage": "https://github.com/eloquent/php-lcs",
     "license": "MIT",
     "authors": [
         {

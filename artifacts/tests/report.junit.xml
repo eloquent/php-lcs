@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="14" assertions="29" failures="0" errors="0" time="0.107822">
-    <testsuite name="Eloquent\Lcs\LcsSolverTest" file="/home/travis/build/eloquent/php-lcs/test/suite/LcsSolverTest.php" namespace="Eloquent\Lcs" fullPackage="Eloquent.Lcs" tests="14" assertions="29" failures="0" errors="0" time="0.107822">
-      <testcase name="testConstructor" class="Eloquent\Lcs\LcsSolverTest" file="/home/travis/build/eloquent/php-lcs/test/suite/LcsSolverTest.php" line="25" assertions="1" time="0.010552"/>
-      <testcase name="testConstructorDefaults" class="Eloquent\Lcs\LcsSolverTest" file="/home/travis/build/eloquent/php-lcs/test/suite/LcsSolverTest.php" line="33" assertions="1" time="0.005105"/>
-      <testsuite name="Eloquent\Lcs\LcsSolverTest::testLongestCommonSubsequence" tests="10" assertions="20" failures="0" errors="0" time="0.071173">
-        <testcase name="testLongestCommonSubsequence with data set &quot;All elements equal&quot;" assertions="2" time="0.005346"/>
-        <testcase name="testLongestCommonSubsequence with data set &quot;Second sequence is a subsequence of first&quot;" assertions="2" time="0.006524"/>
-        <testcase name="testLongestCommonSubsequence with data set &quot;Basic common subsequence&quot;" assertions="2" time="0.006148"/>
-        <testcase name="testLongestCommonSubsequence with data set &quot;Common subsequence of larger data set&quot;" assertions="2" time="0.012238"/>
-        <testcase name="testLongestCommonSubsequence with data set &quot;Single element subsequence at start&quot;" assertions="2" time="0.004073"/>
-        <testcase name="testLongestCommonSubsequence with data set &quot;Single element subsequence at middle&quot;" assertions="2" time="0.004237"/>
-        <testcase name="testLongestCommonSubsequence with data set &quot;Single element subsequence at end&quot;" assertions="2" time="0.004375"/>
-        <testcase name="testLongestCommonSubsequence with data set &quot;Elements after end of first sequence&quot;" assertions="2" time="0.017849"/>
-        <testcase name="testLongestCommonSubsequence with data set &quot;No common elements&quot;" assertions="2" time="0.004354"/>
-        <testcase name="testLongestCommonSubsequence with data set &quot;README example&quot;" assertions="2" time="0.006029"/>
+  <testsuite name="" tests="14" assertions="29" failures="0" errors="0" time="0.152024">
+    <testsuite name="Eloquent\Lcs\LcsSolverTest" file="/home/travis/build/eloquent/php-lcs/test/suite/LcsSolverTest.php" namespace="Eloquent\Lcs" fullPackage="Eloquent.Lcs" tests="14" assertions="29" failures="0" errors="0" time="0.152024">
+      <testcase name="testConstructor" class="Eloquent\Lcs\LcsSolverTest" file="/home/travis/build/eloquent/php-lcs/test/suite/LcsSolverTest.php" line="25" assertions="1" time="0.011223"/>
+      <testcase name="testConstructorDefaults" class="Eloquent\Lcs\LcsSolverTest" file="/home/travis/build/eloquent/php-lcs/test/suite/LcsSolverTest.php" line="33" assertions="1" time="0.005315"/>
+      <testsuite name="Eloquent\Lcs\LcsSolverTest::testLongestCommonSubsequence" tests="10" assertions="20" failures="0" errors="0" time="0.102895">
+        <testcase name="testLongestCommonSubsequence with data set &quot;All elements equal&quot;" assertions="2" time="0.005911"/>
+        <testcase name="testLongestCommonSubsequence with data set &quot;Second sequence is a subsequence of first&quot;" assertions="2" time="0.007897"/>
+        <testcase name="testLongestCommonSubsequence with data set &quot;Basic common subsequence&quot;" assertions="2" time="0.007058"/>
+        <testcase name="testLongestCommonSubsequence with data set &quot;Common subsequence of larger data set&quot;" assertions="2" time="0.019333"/>
+        <testcase name="testLongestCommonSubsequence with data set &quot;Single element subsequence at start&quot;" assertions="2" time="0.005544"/>
+        <testcase name="testLongestCommonSubsequence with data set &quot;Single element subsequence at middle&quot;" assertions="2" time="0.005634"/>
+        <testcase name="testLongestCommonSubsequence with data set &quot;Single element subsequence at end&quot;" assertions="2" time="0.006261"/>
+        <testcase name="testLongestCommonSubsequence with data set &quot;Elements after end of first sequence&quot;" assertions="2" time="0.030415"/>
+        <testcase name="testLongestCommonSubsequence with data set &quot;No common elements&quot;" assertions="2" time="0.006025"/>
+        <testcase name="testLongestCommonSubsequence with data set &quot;README example&quot;" assertions="2" time="0.008816"/>
       </testsuite>
-      <testcase name="testLongestCommonSubsequence3Way" class="Eloquent\Lcs\LcsSolverTest" file="/home/travis/build/eloquent/php-lcs/test/suite/LcsSolverTest.php" line="103" assertions="6" time="0.016246"/>
-      <testcase name="testLongestCommonSubsequenceCustomComparator" class="Eloquent\Lcs\LcsSolverTest" file="/home/travis/build/eloquent/php-lcs/test/suite/LcsSolverTest.php" line="118" assertions="1" time="0.004746"/>
+      <testcase name="testLongestCommonSubsequence3Way" class="Eloquent\Lcs\LcsSolverTest" file="/home/travis/build/eloquent/php-lcs/test/suite/LcsSolverTest.php" line="103" assertions="6" time="0.026513"/>
+      <testcase name="testLongestCommonSubsequenceCustomComparator" class="Eloquent\Lcs\LcsSolverTest" file="/home/travis/build/eloquent/php-lcs/test/suite/LcsSolverTest.php" line="118" assertions="1" time="0.006078"/>
     </testsuite>
   </testsuite>
 </testsuites>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1392618187">
-  <project timestamp="1392618187">
+<coverage generated="1392618321">
+  <project timestamp="1392618321">
     <package name="Eloquent\Lcs">
       <file name="/home/travis/build/eloquent/php-lcs/src/LcsSolver.php">
         <class name="LcsSolver" namespace="Eloquent\Lcs">

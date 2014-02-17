@@ -34,7 +34,7 @@ $solver = new LcsSolver;
 $sequenceA = array('B', 'A', 'N', 'A', 'N', 'A');
 $sequenceB = array('A', 'T', 'A', 'N', 'A');
 
-// calculates correct LCS of array('A', 'A', 'N', 'A')
+// calculates the LCS to be array('A', 'A', 'N', 'A')
 $lcs = $solver->longestCommonSubsequence($sequenceA, $sequenceB);
 ```
 

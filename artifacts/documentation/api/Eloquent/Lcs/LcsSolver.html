@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="robots" content="index, follow, all" />
+        <title>Eloquent\Lcs\LcsSolver | eloquent/php-lcs API</title>
+                    <link rel="stylesheet" type="text/css" href="../../stylesheet.css">
+                            </head>
+        <body id="class">
+            <div class="header">
+        <ul>
+            <li><a href="../../classes.html">Classes</a></li>
+                            <li><a href="../../namespaces.html">Namespaces</a></li>
+                        <li><a href="../../interfaces.html">Interfaces</a></li>
+            <li><a href="../../doc-index.html">Index</a></li>
+            
+        </ul>
+
+        <div id="title">eloquent/php-lcs API</div>
+
+            <div class="type">Class</div>
+    <h1><a href="../../Eloquent/Lcs.html">Eloquent\Lcs</a>\LcsSolver</h1>
+    </div>
+        <div class="content">
+                <p>class    <strong>LcsSolver</strong>        implements
+        <a href="../../Eloquent/Lcs/LcsSolverInterface.html"><abbr title="Eloquent\Lcs\LcsSolverInterface">LcsSolverInterface</abbr></a></p>
+
+            <div class="description">
+            <p>Solves longest common subsequence problems.</p>
+            <p>
+</p>
+        </div>
+    
+    
+    
+            <h2>Methods</h2>
+
+            <table>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method___construct">__construct</a>(<abbr title="Eloquent\Lcs\callable">callable</abbr>|null $comparator = null)
+                    <p>Construct a new LCS solver.</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <abbr title="Eloquent\Lcs\callable">callable</abbr>
+                </td>
+                <td class="last">
+                    <a href="#method_comparator">comparator</a>()
+                    <p>Get the comparator.</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <abbr title="Eloquent\Lcs\array&lt;integer,mixed&gt;">array&lt;integer,mixed&gt;</abbr>
+                </td>
+                <td class="last">
+                    <a href="#method_longestCommonSubsequence">longestCommonSubsequence</a>(array $sequenceA, array $sequenceB)
+                    <p>Returns the longest common subsequence of the given sequences.</p>
+                </td>
+                <td></td>
+            </tr>
+            </table>
+
+
+        <h2>Details</h2>
+
+                        <h3 id="method___construct">
+        <div class="location">at line 27</div>
+        <code>            public            
+    <strong>__construct</strong>(<abbr title="Eloquent\Lcs\callable">callable</abbr>|null $comparator = null)</code>
+    </h3>
+    <div class="details">
+        <p>Construct a new LCS solver.</p>
+        <p>If supplied, the comparator should take two arguments, and return a
+boolean indicating whether they are equal.</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td><abbr title="Eloquent\Lcs\callable">callable</abbr>|null</td>
+                <td>$comparator</td>
+                <td>The comparator to use when comparing sequence members.</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_comparator">
+        <div class="location">at line 43</div>
+        <code>            public            <abbr title="Eloquent\Lcs\callable">callable</abbr>
+    <strong>comparator</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>Get the comparator.</p>
+        <p>
+</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="Eloquent\Lcs\callable">callable</abbr></td>
+            <td>The comparator.</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_longestCommonSubsequence">
+        <div class="location">at line 59</div>
+        <code>            public            <abbr title="Eloquent\Lcs\array&lt;integer,mixed&gt;">array&lt;integer,mixed&gt;</abbr>
+    <strong>longestCommonSubsequence</strong>(array $sequenceA, array $sequenceB)</code>
+    </h3>
+    <div class="details">
+        <p>Returns the longest common subsequence of the given sequences.</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>array</td>
+                <td>$sequenceA</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$sequenceB</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="Eloquent\Lcs\array&lt;integer,mixed&gt;">array&lt;integer,mixed&gt;</abbr></td>
+            <td>The longest common subsequence.</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+    
+            </div>
+            <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/" target="_top">Sami, the API Documentation Generator</a>.
+    </div>
+    </body>
+</html>

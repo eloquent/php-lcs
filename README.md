@@ -42,7 +42,7 @@ Elements in sequences can be anything. By default, sequence members are compared
 using the `===` operator. To customize this comparison, simply construct the
 solver with a custom comparator, like so:
 
-```
+```php
 use Eloquent\Lcs\LcsSolver;
 
 $solver = new LcsSolver(

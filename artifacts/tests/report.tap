@@ -1,0 +1,16 @@
+TAP version 13
+ok 1 - Eloquent\Lcs\LcsSolverTest::testConstructor
+ok 2 - Eloquent\Lcs\LcsSolverTest::testConstructorDefaults
+ok 3 - Eloquent\Lcs\LcsSolverTest::testLongestCommonSubsequence with data set "All elements equal" (array('A', 'B', 'C'), array('A', 'B', 'C'), array('A', 'B', 'C'))
+ok 4 - Eloquent\Lcs\LcsSolverTest::testLongestCommonSubsequence with data set "Second sequence is a subsequence of first" (array('A', 'B', 'C', 'D', 'E', 'F'), array('B', 'C', 'D', 'E'), array('B', 'C', 'D', 'E'))
+ok 5 - Eloquent\Lcs\LcsSolverTest::testLongestCommonSubsequence with data set "Basic common subsequence" (array('A', 'B', 'D', 'E'), array('A', 'C', 'D', 'F'), array('A', 'D'))
+ok 6 - Eloquent\Lcs\LcsSolverTest::testLongestCommonSubsequence with data set "Common subsequence of larger data set" (array('A', 'B', 'C', 'D', 'E', 'F'), array('J', 'A', 'D', 'F', 'A', 'F', 'K', 'D', 'F', 'B', 'C', 'D', 'E', 'H', 'J', 'D', 'F', 'G'), array('A', 'B', 'C', 'D', 'E', 'F'))
+ok 7 - Eloquent\Lcs\LcsSolverTest::testLongestCommonSubsequence with data set "Single element subsequence at start" (array('A', 'B', 'C', 'D', 'E', 'F'), array('A'), array('A'))
+ok 8 - Eloquent\Lcs\LcsSolverTest::testLongestCommonSubsequence with data set "Single element subsequence at middle" (array('A', 'B', 'C', 'D', 'E', 'F'), array('D'), array('D'))
+ok 9 - Eloquent\Lcs\LcsSolverTest::testLongestCommonSubsequence with data set "Single element subsequence at end" (array('A', 'B', 'C', 'D', 'E', 'F'), array('F'), array('F'))
+ok 10 - Eloquent\Lcs\LcsSolverTest::testLongestCommonSubsequence with data set "Elements after end of first sequence" (array('J', 'A', 'F', 'A', 'F', 'K', 'D', 'B', 'C', 'E', 'H', 'J', 'D', 'F'), array('J', 'D', 'F', 'A', 'K', 'D', 'F', 'C', 'D', 'E', 'J', 'D', 'F', 'G'), array('J', 'F', 'A', 'K', 'D', 'C', 'E', 'J', 'D', 'F'))
+ok 11 - Eloquent\Lcs\LcsSolverTest::testLongestCommonSubsequence with data set "No common elements" (array('A', 'B', 'C'), array('D', 'E', 'F'), array())
+ok 12 - Eloquent\Lcs\LcsSolverTest::testLongestCommonSubsequence with data set "README example" (array('B', 'A', 'N', 'A', 'N', 'A'), array('A', 'T', 'A', 'N', 'A'), array('A', 'A', 'N', 'A'))
+ok 13 - Eloquent\Lcs\LcsSolverTest::testLongestCommonSubsequence3Way
+ok 14 - Eloquent\Lcs\LcsSolverTest::testLongestCommonSubsequenceCustomComparator
+1..14

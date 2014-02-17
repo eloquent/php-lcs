@@ -1,7 +1,7 @@
 {
-    "name": "ezzatron/php-lcs",
+    "name": "eloquent/php-lcs",
     "description": "An implementation of the 'longest common subsequence' algorithm for PHP.",
-    "keywords": ["longest","common","subsequence","sequence","diff","algorithm"],
+    "keywords": ["longest", "common", "subsequence", "sequence", "diff", "algorithm"],
     "homepage": "https://github.com/ezzatron/php-lcs",
     "license": "MIT",
     "authors": [
@@ -12,14 +12,14 @@
         }
     ],
     "require": {
-        "php": ">=5"
+        "php": ">=5.3"
     },
     "require-dev": {
-        "icecave/archer": "~0.2"
+        "icecave/archer": "~1"
     },
     "autoload": {
-        "psr-0": {
-            "Ezzatron\\LCS": "src"
+        "psr-4": {
+            "Eloquent\\Lcs\\": "src"
         }
     }
 }

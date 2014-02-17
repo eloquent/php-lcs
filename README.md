@@ -8,7 +8,7 @@
 
 ## Installation and documentation
 
-- Available as [Composer] package [eloquent/php-lcs].
+- Available as [Composer] package [eloquent/lcs].
 - [API documentation] available.
 
 ## What is PHP-LCS?
@@ -68,6 +68,6 @@ $solver = new LcsSolver(
 [Current build status]: https://travis-ci.org/eloquent/php-lcs
 [coverage-image]: http://img.shields.io/coveralls/eloquent/php-lcs/develop.svg "Current test coverage for the develop branch"
 [Current coverage status]: https://coveralls.io/r/eloquent/php-lcs
-[eloquent/php-lcs]: https://packagist.org/packages/eloquent/php-lcs
+[eloquent/lcs]: https://packagist.org/packages/eloquent/lcs
 [Semantic versioning]: http://semver.org/
 [version-image]: http://img.shields.io/:semver-1.0.3-brightgreen.svg "This project uses semantic versioning"

@@ -1,6 +1,6 @@
 # PHP-LCS changelog
 
-## 2.0.0 (unrelease)
+## 2.0.0 (2014-02-17)
 
 - **[BC BREAK]** Moved to Eloquent
 - **[NEW]** Customizable comparator
